@@ -28,7 +28,7 @@ app.post '/mesh/gmsh', (req, res, next) ->
         if err
           next err
           return
-        gmsh = spawn 'gmsh-2.6.1-Linux/bin/gmsh',
+        gmsh = spawn 'gmsh',
           ['-3', inputPath, '-o', outputPath, '-format', 'msh']
         logs = ""
         gmsh.stdout.on 'data', (data) -> logs += data
