@@ -18,7 +18,7 @@ update = ->
       success: (res) ->
         retryInterval = 0.5
 
-        App.updateMesh res.output
+        App.updateMesh res.three
         canvas.classList.remove 'loading'
       error: () ->
         retryInterval *= 2

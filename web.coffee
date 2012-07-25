@@ -40,7 +40,7 @@ app.post '/mesh/gmsh', (req, res, next) ->
           fs.unlink inputPath, (err) -> console.log err if err
           fs.readFile outputPath, "UTF-8", (err, data) ->
             console.log err if err
-            res.send output: gmshToThree(data), logs: logs
+            res.send msh: data, three: gmshToThree(data), logs: logs
             fs.unlink outputPath, (err) -> console.log err if err
 
 port = process.env.PORT || 5000
