@@ -1,3 +1,4 @@
-node_modules/
-.fltk/
-gmsh-2.6.1-Linux/
+/node_modules/
+/.fltk/
+/intersect.pos
+/v8.log
