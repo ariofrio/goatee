@@ -1,0 +1,86 @@
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+html, body { margin: 0; height: 100%; overflow: hidden; }
+
+@background: #eee;
+@codeBackground: #222;
+@codeForeground: #fff;
+
+@toolbarHeight: 2em;
+
+/* Layout */
+aside textarea {
+  display: block;
+  border-bottom: @toolbarHeight transparent solid !important;
+  width: 100%;
+  height: 100%;
+}
+aside button {
+  display: block;
+  margin: -@toolbarHeight auto 0 auto;
+  padding-left: 1em;
+  padding-right: 1em;
+  height: @toolbarHeight;
+}
+
+/* Look n' Feel */
+body {
+  background: @background;
+}
+aside textarea {
+  background: @codeBackground;
+  color: @codeForeground;
+  border: 0;
+  outline: 0;
+  resize: none;
+}
+#canvas {
+  background-image: -webkit-radial-gradient(transparent 70%, rgba(0, 0, 0, .15));
+  background-image: -moz-radial-gradient(transparent 70%, rgba(0, 0, 0, .15));
+  background-image: -o-radial-gradient(transparent 70%, rgba(0, 0, 0, .15));
+  background-image: -ms-radial-gradient(transparent 70%, rgba(0, 0, 0, .15));
+  background-image: radial-gradient(transparent 70%, rgba(0, 0, 0, .15));
+
+  -webkit-transition: opacity 1s;
+  -moz-transition: opacity 1s;
+  -ms-transition: opacity 1s;
+  -o-transition: opacity 1s;
+  transition: opacity 1s;
+  &.loading {
+    opacity: 0.5;
+  }
+}
+
+/* Responsive columns */
+@media screen and (min-width: 500px) {
+  aside, #canvas {
+    display: block;
+    float: left;
+
+    margin: 0;
+    height: 100%;
+  }
+  aside {
+    width: 30%;
+  }
+  #canvas {
+    width: 70%;
+  }
+}
+
+/* Responsive rows */
+@media screen and (max-width: 700px) {
+  aside, #canvas {
+    display: block;
+
+    margin: 0;
+    width: 100%;
+  }
+  aside {
+    height: 30%;
+  }
+  #canvas {
+    height: 70%;
+  }
+
+  #forkme { display: none; }
+}
