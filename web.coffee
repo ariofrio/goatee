@@ -7,6 +7,7 @@ app = express.createServer()
 app.use express.logger()
 app.use express.bodyParser()
 app.use require('connect-assets')()
+app.use express.compress()
 
 app.get '/', (req, res) ->
   res.render 'index.jade'
