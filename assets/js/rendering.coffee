@@ -36,9 +36,9 @@ scene.add backLight
 # Update mesh when signaled.
 mesh = null
 loader = new Three.JSONLoader
-App.updateMesh = (obj) ->
+App.updateMesh = ->
   scene.remove mesh if mesh?
-  loader.createModel obj, (geometry) ->
+  loader.createModel App.meshResult.three, (geometry) ->
     mesh = new Three.Mesh geometry,
       #new Three.MeshBasicMaterial color: 0xCC0000, wireframe: yes
       new Three.MeshPhongMaterial color: 0xCC0000
