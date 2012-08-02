@@ -10,17 +10,6 @@ Goatee is a web interface to Gmsh.
 
  2. Start an Ubuntu 12.04 instance with the following User Data:
  
-    <img src="https://raw.github.com/ariofrio/goatee/master/doc/1-launch-instance.png" width="200">
-    <img src="https://raw.github.com/ariofrio/goatee/master/doc/2-select-classic-wizard.png" width="200">
-    <img src="https://raw.github.com/ariofrio/goatee/master/doc/3-choose-an-ami.png" width="200">
-    <img src="https://raw.github.com/ariofrio/goatee/master/doc/4-instance-details.png" width="200">
-    <img src="https://raw.github.com/ariofrio/goatee/master/doc/5-advanced-instance-options.png" width="200">
-    <img src="https://raw.github.com/ariofrio/goatee/master/doc/6-storage-device-configuration.png" width="200">
-    <img src="https://raw.github.com/ariofrio/goatee/master/doc/7-tags.png" width="200">
-    <img src="https://raw.github.com/ariofrio/goatee/master/doc/8-create-key-pair.png" width="200">
-    <img src="https://raw.github.com/ariofrio/goatee/master/doc/9-configure-firewall.png" width="200">
-    <img src="https://raw.github.com/ariofrio/goatee/master/doc/10-review.png" width="200">
-
         #!/bin/bash
         set -ex
 
@@ -47,6 +36,17 @@ Goatee is a web interface to Gmsh.
           first-setup &>> /var/log/goatee-setup.log
         fi
         start &>> /var/log/goatee-setup.log
+
+    <img src="https://raw.github.com/ariofrio/goatee/master/doc/1-launch-instance.png" width="200">
+    <img src="https://raw.github.com/ariofrio/goatee/master/doc/2-select-classic-wizard.png" width="200">
+    <img src="https://raw.github.com/ariofrio/goatee/master/doc/3-choose-an-ami.png" width="200">
+    <img src="https://raw.github.com/ariofrio/goatee/master/doc/4-instance-details.png" width="200">
+    <img src="https://raw.github.com/ariofrio/goatee/master/doc/5-advanced-instance-options.png" width="200">
+    <img src="https://raw.github.com/ariofrio/goatee/master/doc/6-storage-device-configuration.png" width="200">
+    <img src="https://raw.github.com/ariofrio/goatee/master/doc/7-tags.png" width="200">
+    <img src="https://raw.github.com/ariofrio/goatee/master/doc/8-create-key-pair.png" width="200">
+    <img src="https://raw.github.com/ariofrio/goatee/master/doc/9-configure-firewall.png" width="200">
+    <img src="https://raw.github.com/ariofrio/goatee/master/doc/10-review.png" width="200">
 
     If you haven't yet, create a new Key Pair and download it. You will need
     it to access the instance if it fails, and to update its software.
