@@ -18,7 +18,7 @@ Goatee is a web interface to Gmsh.
     <img src="https://raw.github.com/ariofrio/goatee/master/doc/6-storage-device-configuration.png" width="200">
     <img src="https://raw.github.com/ariofrio/goatee/master/doc/7-tags.png" width="200">
     <img src="https://raw.github.com/ariofrio/goatee/master/doc/8-create-key-pair.png" width="200">
-    <img src="https://raw.github.com/ariofrio/goatee/master/doc/9-configuration-firewall.png" width="200">
+    <img src="https://raw.github.com/ariofrio/goatee/master/doc/9-configure-firewall.png" width="200">
     <img src="https://raw.github.com/ariofrio/goatee/master/doc/10-review.png" width="200">
 
         #!/bin/bash
