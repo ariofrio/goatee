@@ -10,10 +10,10 @@ Goatee is a web interface to Gmsh.
 
  2. Start an Ubuntu 12.04 instance with the following User Data:
  
-    <img src="https://raw.github.com/ariofrio/goatee/master/doc/1-launch-instance.png" width="220">
-    <img src="https://raw.github.com/ariofrio/goatee/master/doc/2-select-classic-wizard.png" width="220">
-    <img src="https://raw.github.com/ariofrio/goatee/master/doc/3-choose-an-ami.png" width="220">
-    <img src="https://raw.github.com/ariofrio/goatee/master/doc/4-instance-details.png" width="220">
+    <img src="https://raw.github.com/ariofrio/goatee/master/doc/1-launch-instance.png" width="200">
+    <img src="https://raw.github.com/ariofrio/goatee/master/doc/2-select-classic-wizard.png" width="200">
+    <img src="https://raw.github.com/ariofrio/goatee/master/doc/3-choose-an-ami.png" width="200">
+    <img src="https://raw.github.com/ariofrio/goatee/master/doc/4-instance-details.png" width="200">
 
         #!/bin/bash
         set -ex
