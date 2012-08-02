@@ -54,6 +54,10 @@ Goatee is a web interface to Gmsh.
     Finally, if you haven't yet, you'll need to create a new Security Group:
     add an SSH rule and an HTTP rule.
 
+    <img src="https://raw.github.com/ariofrio/goatee/master/doc/9a-add-ssh.png" width="200">
+    <img src="https://raw.github.com/ariofrio/goatee/master/doc/9b-add-http.png" width="200">
+    <img src="https://raw.github.com/ariofrio/goatee/master/doc/9c-continue.png" width="200">
+
     After 5 minutes, open the app by visiting the Public DNS or a Public IP.
 
 ## Debugging
