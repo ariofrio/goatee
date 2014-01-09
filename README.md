@@ -15,7 +15,7 @@ Goatee is a web interface to Gmsh.
 
         function first-setup() {
           apt-get update
-          apt-get install --yes git npm rubygems gmsh
+          apt-get install --yes git npm nodejs-legacy rubygems gmsh
           gem install foreman
           npm install -g coffee-script
 
