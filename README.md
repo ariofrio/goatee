@@ -27,7 +27,7 @@ Goatee is a web interface to Gmsh.
         function start() {
           cd /home/ubuntu/goatee.git
           sudo -u ubuntu wget -O hooks/post-receive \
-            https://raw.github.com/gist/3178891/post-receive
+            https://gist.github.com/ariofrio/3178891/raw/post-receive
           chmod +x hooks/post-receive
           sudo -Hu ubuntu hooks/post-receive
         }
